@@ -16,10 +16,11 @@ class UsersClass {
 			$k = $key;
 			for($i=0; $i<strlen($list); $i++){
 				$k = str_replace($list[$i], '', $k);
+			}
 			
-			$re = $this->removeDuplicateChar($k);
+			$Ere = $this->removeDuplicateChar($k);
 			
-			return $re;
+			return $Ere;
 			
 		}
 		
